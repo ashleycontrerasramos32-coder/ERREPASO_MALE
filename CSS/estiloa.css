@@ -1,0 +1,73 @@
+/* ===================================================== */
+/* ESTILO NAGUSIA – WEB ELEGANTE ETA BIZIA */
+/* Kolore konstanteak, animazio leunak eta nortasuna */
+/* ===================================================== */
+
+:root {
+/* Kolore nagusiak (konstanteak) */
+--kolore-nagusia: #1f3c88; /* urdin sakona */
+--kolore-bigarrena: #f4c430; /* urre epela */
+--kolore-fondoa: #f2f4f8; /* gris oso argia */
+--kolore-txuria: #ffffff;
+--itzala-leuna: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, sans-serif;
+background: linear-gradient(135deg, var(--kolore-fondoa), #e6ebf2);
+color: #222;
+}
+
+/* ================= HEADER ETA NABIGAZIOA ============== */
+header {
+background: linear-gradient(135deg, var(--kolore-nagusia), #162b5c);
+color: var(--kolore-txuria);
+padding: 25px;
+box-shadow: var(--itzala-leuna);
+}
+
+header h1 {
+margin: 0 0 10px 0;
+letter-spacing: 1px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 20px;
+padding: 0;
+margin: 0;
+}
+
+nav a {
+color: var(--kolore-txuria);
+text-decoration: none;
+font-weight: 600;
+position: relative;
+}
+
+/* Azpimarra animatua nabigazioan */
+nav a::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -5px;
+width: 0;
+height: 3px;
+background-color: var(--kolore-bigarrena);
+transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+width: 100%;
+}
+
+/* ================= EDUKIA OROKORRA ==================== */
+main {
+padding: 40px 20px;
+}
