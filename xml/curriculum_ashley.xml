@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum SYSTEM "curriculum.dtd">
+<curriculum>
+    <personalData>
+        <name>Ashley</name>
+        <email>ashleycontrerasramos32@gmail.com</email>
+        <phone>629467892</phone>
+        <birthDate>2007-01-19</birthDate>
+        <workExperience>true</workExperience>
+    </personalData>
+</curriculum>

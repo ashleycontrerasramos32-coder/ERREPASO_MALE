@@ -1,0 +1,7 @@
+<!ELEMENT curriculum (personalData)>
+<!ELEMENT personalData (name, email, phone, birthDate, workExperience)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT birthDate (#PCDATA)>
+<!ELEMENT workExperience (#PCDATA)>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum SYSTEM "curriculum.dtd">
+<curriculum>
+    <personalData>
+        <name>Ismail</name>
+        <email>jayxdx95@gmail.com</email>
+        <phone>689536781</phone>
+        <birthDate>2007-08-28</birthDate>
+        <workExperience>true</workExperience>
+    </personalData>
+</curriculum>
