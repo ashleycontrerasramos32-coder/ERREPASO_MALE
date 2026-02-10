@@ -67,6 +67,15 @@ nav a:hover::after {
   width: 100%;
 }
 
+nav a.aktiboa {
+  color: var(--kolore-bigarrena);
+}
+
+nav a.aktiboa::after {
+  width: 100%;
+}
+
+
 /* ================= EDUKIA OROKORRA ==================== */
 main {
   padding: 40px 20px;
@@ -84,6 +93,35 @@ img {
   border-radius: 12px;
   box-shadow: var(--itzala-leuna);
 }
+
+.elkarrizketa-kartak {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.elkarrizketa-karta {
+  background: var(--kolore-txuria);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: var(--itzala-leuna);
+  transition: transform 0.3s ease;
+}
+
+.elkarrizketa-karta:hover {
+  transform: translateY(-8px);
+}
+
+.elkarrizketa-extra {
+  background: var(--kolore-txuria);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--itzala-leuna);
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
 
 /* ================= BLOKE INTERAKTIBOAK ================ */
 .blokeak {
